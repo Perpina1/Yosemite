@@ -1,121 +1,170 @@
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
-body{
-    font-family: 'Roboto Mono', monospace;
+body {
+  font-family: 'Roboto Mono', monospace;
 }
 
 .Plan {
-    background-color : #FF764E;
+  background-color: #ff764e;
 }
 
-.Learn{
-    background-color: #5ED3EB;
+.Learn {
+  background-color: #5ed3eb;
 }
 
-.Involved{
-    background-color: #FFCD69;
+.Involved {
+  background-color: #ffcd69;
 }
 
-.Main, .Footer {
-    background-color: #DDB9A3
+.Main,
+.Footer {
+  background-color: #ddb9a3;
 }
 
 .Round {
-    border-radius: 50%;
-    width: 100%;
-    
+  border-radius: 50%;
+  width: 100%;
 }
 
-a{
-    color: white;
-    padding: 10px;
-    background-color: rgb(255, 118, 78);
-    text-align: center;
-    border-radius: 10%;
-    flex-basis: 7em;
-    text-decoration: none;
+a {
+  color: white;
+  padding: 10px;
+  background-color: rgb(255, 118, 78);
+  text-align: center;
+  border-radius: 10%;
+  flex-basis: 7em;
+  text-decoration: none;
 }
 
-.Header{
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    margin-top: 2%;
+.Header {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 2%;
 }
 
-.Title{
-    display: flex;
-    width:100%;
-    justify-content: center;
-    margin: 0px;
-
-}
-
-.Title p{
-    flex-basis: 100%;
+.Title {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 4%;
 }
 
 h1 {
-    font-family: 'Chelsea Market', cursive;
-    font-size: 3rem;
-    flex-basis: 100%;
+  font-family: 'Chelsea Market', cursive;
+  font-size: 4.2rem;
+  text-align: center;
 }
 
 .Park {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 300px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2%;
+  align-items: center;
 }
 
 .Park p {
-    font-size: 5mm;
-    padding: 2%;
-    margin: 5%
+  font-size: 5mm;
+  margin: 2%;
+  text-align: center;
 }
 
-.Mikayla{
-    width: 100%;
-    flex-basis: 100%;
-    margin-left: 0px;
+.Mikayla {
+  width: 25%;
 }
 
-.Main{
-    display: flex; 
-    color: white;
-    align-items: center;
-    margin: 4%;
-    padding: 2%;
-    flex-direction: column;
-    justify-content: space-evenly;
+.Main {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 4%;
+  padding: 2%;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-.Main p{
-    padding: 2%;
+.Main p {
+  padding: 2%;
 }
 
-.FireText{
-    display: flex;
-    justify-content: center;
+.FireText {
+  display: flex;
+  justify-content: center;
 }
-
